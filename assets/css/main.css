@@ -2567,6 +2567,15 @@ input, select, textarea {
 
 /* Image */
 
+	.rotation90 {
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		margin: 10rem 0;
+	}
+
 	.image {
 		border: 0;
 		display: inline-block;
@@ -2600,7 +2609,8 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			width: auto;
+			height: auto;
 		}
 
 			.image.fit:first-child {
