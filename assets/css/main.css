@@ -2573,7 +2573,10 @@ input, select, textarea {
 		-ms-transform: rotate(90deg);
 		-o-transform: rotate(90deg);
 		transform: rotate(90deg);
-		margin: 7rem 0;
+		margin: 8rem 0;
+		display: inline-block;
+		position: relative;
+		width: 100%;
 	}
 
 	.image {
@@ -2609,8 +2612,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
-			width: auto;
-			height: auto;
+			width: 100%;
 		}
 
 			.image.fit:first-child {
