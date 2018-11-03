@@ -2059,7 +2059,49 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Button */
+/*W3 Button */
+	.w3-content{
+		margin-left:auto;
+		margin-right:auto;
+		position:relative;
+	}
+
+	.w3-button{
+		border: 0;
+		display: inline-block;
+		padding:0px 16px;
+		text-align:center;
+		vertical-align:middle;
+		overflow:hidden;
+		text-decoration:none;
+		cursor:pointer;
+		white-space: nowrap;
+	}
+
+	.w3-light-grey{
+		color:#000!important;
+		background-color:#f1f1f1!important
+	}
+
+	.w3-display-left{
+		display: inline-block;
+		position:absolute;
+		top:45%;
+		left:0%;
+		transform:translate(0%,-50%);
+		-ms-transform:translate(-0%,-50%)
+	}
+
+	.w3-display-right{
+		display: inline-block;
+		position:absolute;
+		top:45%;
+		right:0%;
+		transform:translate(0%,-50%);
+		-ms-transform:translate(0%,-50%)
+	}
+
+	/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
